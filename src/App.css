@@ -1,0 +1,24 @@
+@keyframes autoplay6 {
+
+  0% {
+    margin-left: 100%;
+  }
+  20%{
+    margin-left: 0%;
+  }
+  50%{
+    margin-left: 0%;
+  }
+  90%{
+    margin-left: -100%;
+  }
+  0% {
+    margin-left: 100%;
+  }
+}
+
+.slider-image {
+  animation-name: autoplay6;
+  animation-duration: 5s;
+  animation-iteration-count: 1; 
+}
