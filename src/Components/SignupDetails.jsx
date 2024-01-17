@@ -25,7 +25,7 @@ const SignupDetails = () => {
 
       let getdata = JSON.parse(localStorage.getItem("SignupData"))|| [];
       setsignupdata(getdata); 
-
+      
    },[])
   return (
     <>
